@@ -13,8 +13,8 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Running Python tests'
-                 bat '"C:\\Windows\\py.exe" --version'
-                 bat '"C:\\Windows\\py.exe" -m unittest discover -s . -p "test_*.py" -v'                
+                 bat '"C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Python314\\python.exe" --version'
+                 bat '"C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Python314\\python.exe" -m unittest discover -s . -p "test_*.py" -v'                
             }
         }
     }
